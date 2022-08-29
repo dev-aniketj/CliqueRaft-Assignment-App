@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBGColor"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <EditText
+        android:id="@+id/text_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:background="@drawable/edittext_bg"
+        android:gravity="start"
+        android:hint="@string/enter_some_text"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:paddingHorizontal="18dp"
+        android:paddingVertical="16dp"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/hintTextColor"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_et"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginVertical="16dp"
+        android:gravity="center"
+        android:padding="2dp"
+        android:textAllCaps="false"
+        android:textColor="@color/textColor"
+        android:textSize="18sp" />
+
+    <include
+        android:id="@+id/btn_layout"
+        layout="@layout/button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="32dp" />
+
+</RelativeLayout>

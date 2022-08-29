@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBGColor"
+    android:orientation="vertical"
+    android:paddingHorizontal="32dp"
+    tools:ignore="HardcodedText,KeyboardInaccessibleWidget,UnusedAttribute">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:padding="2dp"
+        android:text="Toast"
+        android:textAllCaps="false"
+        android:textColor="@color/btnTextColor"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:text="Notification"
+        android:textAllCaps="false"
+        android:textColor="@color/btnTextColor"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:text="Modal Pop Up"
+        android:textAllCaps="false"
+        android:textColor="@color/btnTextColor"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:text="Change Text"
+        android:textAllCaps="false"
+        android:textColor="@color/btnTextColor"
+        android:textSize="17sp" />
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="purple_200">#98F7FB</color>
+    <color name="purple_500">#01D0DA</color>
+    <color name="purple_700">#00ADB5</color>
+    <color name="teal_200">#A2B0C5</color>
+    <color name="teal_700">#393E46</color>
+    <color name="black">#222831</color>
+    <color name="white">#EEEEEE</color>
+
+    <!-- APP COLORS -->
+    <color name="color1">#222831</color>
+    <color name="color2">#393E46</color>
+    <color name="color3">#00ADB5</color>
+    <color name="color4">#EEEEEE</color>
+
+    <color name="mainBGColor">#222831</color>
+    <color name="etStrokeColor">#00ADB5</color>
+    <color name="hintTextColor">#ABEEEEEE</color>
+    <color name="textColor">#EEEEEE</color>
+    <color name="btnTextColor">#222831</color>
+</resources>
